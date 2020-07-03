@@ -1,6 +1,38 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@cathysiller 
+uidotdev
+/
+react-course
+86
+2.4k
+905
+Code
+Issues
+5
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+react-course/app/index.css
+@tylermcginnis
+tylermcginnis 9. Battle Instructions
+Latest commit 6042967 on Mar 12, 2019
+ History
+ 1 contributor
+143 lines (116 sloc)  1.71 KB
+  
 html, body, #app {
-  height: 100%;
   margin: 0;
+  height: 100%;
   width: 100%;
 }
 
@@ -17,25 +49,127 @@ li {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
   padding: 50px;
 }
 
 .flex-center {
-  align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .btn-clear {
-  background: transparent;
   border: none;
+  background: transparent;
 }
 
 .nav-link {
-  color: inherit;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
+  color: inherit;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.header-lg {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.header-sm {
+  font-size: 28px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin: 0 auto;
+  display: block;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.link {
+  color: rgb(187, 46, 31);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card-list {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.card-list li {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.card-list svg {
+  margin-right: 10px;
+}
+
+.card-list a {
+  font-weight: 500;
+  color: inherit;
+}
+
+.bg-light {
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.repo {
+  margin: 10px 0;
+  width: 250px;
+  padding: 20px;
+}
+
+.repo a {
+  text-decoration: none;
+}
+
+.repo img {
+  margin-bottom: 8px;
+}
+
+.instructions-container {
+  margin: 100px 0;
+}
+
+.container-sm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.battle-instructions {
+  padding: 0;
+  font-size: 25px;
+}
+
+.battle-instructions li {
+  flex: 1;
+  min-width: 300px
+}
+
+.battle-instructions svg {
+  padding: 40px;
+  border-radius: 3px;
 }
