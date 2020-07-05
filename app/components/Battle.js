@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@cathysiller 
-uidotdev
-/
-react-course
-86
-2.4k
-907
-Code
-Issues
-5
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-react-course/app/components/Battle.js
-@tylermcginnis
-tylermcginnis 26. Consume Theme
-Latest commit a022ad9 on Mar 15, 2019
- History
- 1 contributor
-214 lines (197 sloc)  5.66 KB
-  
 import React from 'react'
 import { FaUserFriends, FaFighterJet, FaTrophy, FaTimesCircle } from 'react-icons/fa'
 import PropTypes from 'prop-types'

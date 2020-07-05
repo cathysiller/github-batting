@@ -1,4 +1,3 @@
-
 const id = "YOUR_CLIENT_ID"
 const sec = "YOUR_SECRET_ID"
 const params = `?client_id=${id}&client_secret=${sec}`
